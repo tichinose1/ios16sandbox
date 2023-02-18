@@ -11,7 +11,7 @@ import SwiftUI
 struct ios16sandboxApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
