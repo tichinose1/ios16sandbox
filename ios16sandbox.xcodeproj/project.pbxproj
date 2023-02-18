@@ -12,6 +12,8 @@
 		770FF8432963BC2F00EE6736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770FF8422963BC2F00EE6736 /* Assets.xcassets */; };
 		770FF8462963BC2F00EE6736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770FF8452963BC2F00EE6736 /* Preview Assets.xcassets */; };
 		77E7FF5D299D299F007DF79B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7FF5C299D299F007DF79B /* HomeView.swift */; };
+		77E7FF5F29A11DED007DF79B /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7FF5E29A11DED007DF79B /* FirstView.swift */; };
+		77E7FF6129A11E4E007DF79B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7FF6029A11E4E007DF79B /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		770FF8422963BC2F00EE6736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		770FF8452963BC2F00EE6736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77E7FF5C299D299F007DF79B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		77E7FF5E29A11DED007DF79B /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		77E7FF6029A11E4E007DF79B /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				770FF8422963BC2F00EE6736 /* Assets.xcassets */,
 				770FF8442963BC2F00EE6736 /* Preview Content */,
 				77E7FF5C299D299F007DF79B /* HomeView.swift */,
+				77E7FF5E29A11DED007DF79B /* FirstView.swift */,
+				77E7FF6029A11E4E007DF79B /* SecondView.swift */,
 			);
 			path = ios16sandbox;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E7FF5D299D299F007DF79B /* HomeView.swift in Sources */,
+				77E7FF6129A11E4E007DF79B /* SecondView.swift in Sources */,
+				77E7FF5F29A11DED007DF79B /* FirstView.swift in Sources */,
 				770FF8412963BC2C00EE6736 /* ContentView.swift in Sources */,
 				770FF83F2963BC2C00EE6736 /* ios16sandboxApp.swift in Sources */,
 			);
