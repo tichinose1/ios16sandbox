@@ -9,7 +9,9 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        FirstView().navigationTitle("hoge")
+        NavigationView {
+            FirstView().navigationTitle("hoge")
+        }
     }
 }
 
