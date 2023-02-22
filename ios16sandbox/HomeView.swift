@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct HomeView: View {
+
+    init() {
+        let appearance = UINavigationBarAppearance()
+        appearance.backgroundColor = .blue
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+    }
+
     var body: some View {
         NavigationView {
             List {
