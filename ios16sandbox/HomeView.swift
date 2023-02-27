@@ -26,6 +26,7 @@ struct HomeView: View {
                 Text("fuga")
             }
             .navigationTitle("list")
+            .toolbar(content: <#T##() -> View#>)
         }
     }
 }
