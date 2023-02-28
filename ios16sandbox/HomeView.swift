@@ -26,7 +26,14 @@ struct HomeView: View {
                 Text("fuga")
             }
             .navigationTitle("list")
-            .toolbar(content: <#T##() -> View#>)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        Image(systemName: "ellipsis.circle")
+                    }
+                    Button(<#T##title: StringProtocol##StringProtocol#>, action: <#T##() -> Void#>)
+                }
+            }
         }
     }
 }
