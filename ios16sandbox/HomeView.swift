@@ -28,10 +28,8 @@ struct HomeView: View {
             .navigationTitle("list")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Button {
-                        Image(systemName: "ellipsis.circle")
+                    Button("a") {
                     }
-                    Button(<#T##title: StringProtocol##StringProtocol#>, action: <#T##() -> Void#>)
                 }
             }
         }
