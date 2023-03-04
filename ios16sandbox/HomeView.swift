@@ -11,11 +11,11 @@ struct HomeView: View {
 
     init() {
         let appearance = UINavigationBarAppearance()
-        appearance.backgroundColor = .blue
+        appearance.backgroundColor = .lightGray
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
 
         let appearance2 = UINavigationBarAppearance()
-        appearance2.backgroundColor = .yellow
+        appearance2.backgroundColor = .lightText
         UINavigationBar.appearance().standardAppearance = appearance2
     }
 
@@ -28,7 +28,7 @@ struct HomeView: View {
             .navigationTitle("list")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Button("a") {
+                    Button("設定") {
                     }
                 }
             }
