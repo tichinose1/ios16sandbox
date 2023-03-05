@@ -31,6 +31,10 @@ struct HomeView: View {
                     Button("設定") {
                     }
                 }
+                ToolbarItem {
+                    Button("検索") {
+                    }
+                }
             }
         }
     }
