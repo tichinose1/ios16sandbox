@@ -27,6 +27,9 @@ struct HomeView: View {
                 NavigationLink("") {
                     SecondView()
                 }
+                Button("hoge") {
+                    
+                }
             }
             .navigationTitle("list")
             .toolbar {
