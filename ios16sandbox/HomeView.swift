@@ -28,7 +28,10 @@ struct HomeView: View {
                     SecondView()
                 }
                 Button("hoge") {
-                    
+
+                }
+                .fullScreenCover(isPresented: .constant(true)) {
+                    SecondView()
                 }
             }
             .navigationTitle("list")
