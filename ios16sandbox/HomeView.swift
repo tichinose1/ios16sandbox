@@ -30,7 +30,7 @@ struct HomeView: View {
                 Button("hoge") {
 
                 }
-                .fullScreenCover(isPresented: .constant(true)) {
+                .sheet(isPresented: .constant(true)) {
                     SecondView()
                 }
             }
